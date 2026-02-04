@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Data files (regenerate these by running the code)
+data/
+*.json
+*.csv
+*.pkl
+*.pickle
+
+# Output files - users regenerate these
+plots/
+!plots/.gitkeep       # Keep folder structure
+
+# Keep example plots for documentation
+!examples/
+examples/*.png        # Include example plots in examples/ folder
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files
+*.h5
+*.hdf5
+
+# Logs
+*.log
+
+# Environment variables
+.env
